@@ -1,5 +1,14 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
   "name": "kpi04margem4567fedcb",
+  "position": {
+    "x": 1460.1629790347401,
+    "y": 58.902540555541542,
+    "z": 0,
+    "height": 379.76637989757046,
+    "width": 379.76637989757046,
+    "tabOrder": 0
+  },
   "visual": {
     "visualType": "image",
     "objects": {
@@ -44,7 +53,6 @@
         }
       ]
     },
-    "drillFilterOtherVisuals": true,
     "visualContainerObjects": {
       "title": [
         {
@@ -66,15 +74,7 @@
           }
         }
       ]
-    }
-  },
-  "position": {
-    "x": 1480,
-    "y": 100,
-    "width": 380,
-    "height": 380,
-    "z": 0,
-    "tabOrder": 0
-  },
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json"
+    },
+    "drillFilterOtherVisuals": true
+  }
 }

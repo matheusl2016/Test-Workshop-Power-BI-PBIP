@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
   "name": "tendência-mensal-de-receita-lineChart-04bde3",
   "position": {
-    "x": 20,
-    "y": 260,
+    "x": 19.634180185180515,
+    "y": 223.20962736836796,
     "z": 0,
-    "height": 440,
-    "width": 780,
+    "height": 476.38721396674828,
+    "width": 780.20031788480469,
     "tabOrder": 0
   },
   "visual": {
@@ -69,6 +69,29 @@
         ],
         "isDefaultSort": true
       }
+    },
+    "objects": {
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.Receita Bruta"
+          }
+        }
+      ]
     },
     "visualContainerObjects": {
       "title": [

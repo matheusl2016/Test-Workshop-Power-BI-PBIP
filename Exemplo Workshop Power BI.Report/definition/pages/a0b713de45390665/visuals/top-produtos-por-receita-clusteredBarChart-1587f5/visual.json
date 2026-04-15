@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
   "name": "top-produtos-por-receita-clusteredBarChart-1587f5",
   "position": {
-    "x": 820,
-    "y": 260,
+    "x": 820.50205615964887,
+    "y": 223.20962736836796,
     "z": 0,
-    "height": 440,
-    "width": 440,
+    "height": 476.38721396674828,
+    "width": 439.1856094053536,
     "tabOrder": 0
   },
   "visual": {
@@ -69,6 +69,26 @@
         ],
         "isDefaultSort": true
       }
+    },
+    "objects": {
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     },
     "visualContainerObjects": {
       "title": [
